@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#field {
+    width: 320px;
+    height: 320px;
+    border: 1px solid black;
+}    
+#field::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.chess-block {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+.bg-black {
+    background: #545353;
+}
+.active {
+    background-image: url('/img/bishop.png');
+    background-color: rgb(225, 211, 17);
+    background-size: contain;
+}
+.green {
+    background: rgb(50, 240, 104);
+}
